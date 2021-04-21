@@ -1,13 +1,15 @@
 
 
-HTML AND CSS
+Title: طراحی سایت پروژه محور  (Second Project)
 
-Second-project Video 15 to video 37
+Site:  https://toplearn.com/c/nZ6R
 
-طراحی سایت پروژه محور https://toplearn.com/c/nZ6R
+Videos: Second-project Video 15 to video 37
+
+Time: 
 
 
-
+-------------------------------------------------------------------
 
 have to See the before start second project:
 
@@ -17,8 +19,8 @@ have to See the before start second project:
                  Video 32 HTML and CCS,
                  Video 41 HTML and CCS,
                  Video 42 HTML and CCS,
-                 Video 52 HTML and CCS,
-                 Video 53 HTML and CCS,
+                 Video 52 HTML and CCS, flot
+                 Video 53 HTML and CCS, clear
                  Video 59 HTML and CCS,***
                  Video 68 HTML and CCS,media 
 
