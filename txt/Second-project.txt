@@ -1,13 +1,15 @@
 
 
-HTML AND CSS
+Title: طراحی سایت پروژه محور  (Second Project)
 
-Second-project Video 15 to video 37
+Site:  https://toplearn.com/c/nZ6R
 
-طراحی سایت پروژه محور https://toplearn.com/c/nZ6R
+Videos: Second-project Video 15 to video 37
+
+Time: 
 
 
-
+-------------------------------------------------------------------
 
 have to See the before start second project:
 
@@ -59,55 +61,7 @@ index.html:
 ----------------------------------------------------------
 Vidoe 16 
 
-CSS.style:
 
-*{
-    margin: 0 auto;
-    font-size: 14px;
-    color: #333333;
-}
-
-.clear-fix{
-    clear: both;
-}
-
-.position-relative{
-    position: relative;
-}
-
-.position-abslote{
-    position: absolute;
-}
-
-.title{
-    position: relative;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.title:after{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background-color: #cccccc;
-}
-
-.title:before{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
-    width: 80px;
-    height: 5px;
-    background-color: #f9b500;
-
-    z-index: 1;
-}
 
 ----------------------------------------------------------
 Vidoe 17
