@@ -8,6 +8,13 @@
     clear: both;
 }
 
+/* Video 53 float */
+/* .clearFix::after,
+.clearFix::before{
+    content: " ";
+    display: table;
+} */
+
 .position-relative{
     position: relative;
 }
@@ -42,6 +49,5 @@
     width: 80px;
     height: 5px;
     background-color: #f9b500;
-
     z-index: 1;
 }
