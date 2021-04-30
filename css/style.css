@@ -137,7 +137,6 @@ a:hover > b{
 }
 
 
-
 /* Width less than: 576px */
 @media (max-width:575.98px) {
     .app{
@@ -146,7 +145,42 @@ a:hover > b{
     }
 }
 
+/*----------- Header -------------- */
 
+.header-logo{
+    float: left;
+    margin: 30px 0;
+}
+
+.header-menu{
+    float: right;
+}
+
+.header-menu-item{
+    display: inline;
+}
+
+.header-menu-item-link{
+    padding: 0 15px ;
+    line-height: 80px;
+    font-weight: 700;
+    color: #333333 !important;
+}
+
+@media (max-width:991.98px){
+    .header-logo{
+        height: 15px;
+        margin: 32px 0;
+    }
+    .header-menu-item-link{
+        padding: 0 5px ;
+    }
+}
+
+
+@media (max-width:767.98px){
+
+}
 
 
 
