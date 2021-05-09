@@ -213,8 +213,6 @@ a:hover > b{
 /* End of header */
 
 /* ------------- Content start ------------------- */
-
-/* Intro Start */
 .intro-row {
     width: 100%;
 }
@@ -406,10 +404,27 @@ a:hover > b{
         margin-bottom: 10px;
     }
 }
+/* End of content */
+
+/* ------------------- Container Start ------------------- */
+
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main{
+    float: left;
+    width: calc(calc(200%/3) - 25px);
+    margin-right: 25px;
+}
+
+.main-news{
+    margin-bottom: 20px;
+}
+.main-news-img{
+    width: 100%;
+}
 
 
-/* End of intro */
-
-/* ------------------- End of content ------------------- */
-
-
+/* End of content */
