@@ -467,7 +467,79 @@ a:hover > b{
     text-align: center;
 }
 
+/* POPULAR POSTS */
+.popular-post{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popular-post-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.popular-post-title{
+    float: right;
+    margin-left: 20px;
+    width: calc(100% - 120px);
+}
+
+.popular-post-title h3 a b{
+    font-size: 18px;
+}
+
+/* NEWSLETTER */
+.subscraibe-form{
+    margin-top: 20px;
+    border: none;
+}
+
+.subscraibe-form-text{
+    padding: 13px 58px 13px 13px;
+    float: left;
+    border: 1px solid #f9b500;
+    width: calc(100% - 73px);
+}
+.subscraibe-form-text:focus{
+    outline-color: #f9b500;
+}
+
+.subscraibe-form button{
+    float: right;
+    width: 45px;
+    height: 43px;
+    margin-top: -44px;
+    margin-right: .5px;
+    border: none;
+    text-align: center;
+    background-color: #f9b500;
+}
+
+.subscraibe-form button:hover{
+    background-color: black;
+    color: white;
+}
 
 /* End of Sidebar*/
+
+@media(max-width:991.98px) {
+    .main{
+        width: 100%;
+        float: none;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:575.98px){
+    .main-news-w-50{
+        width: 100%;
+        float: none;
+    }
+}
 
 /* End of container */
