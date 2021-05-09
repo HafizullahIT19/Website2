@@ -408,6 +408,9 @@ a:hover > b{
 
 /* ------------------- Container Start ------------------- */
 
+/* ------ Main Start ------ */
+
+/* Main-news*/
 .container{
     width: 100%;
     margin-top: 50px;
@@ -426,5 +429,22 @@ a:hover > b{
     width: 100%;
 }
 
+/* main-crypto-maning-news */
+.main-news-w-50{
+    width: calc(50% - 25px) ;
+    float: left;
+    margin-right: 25px;
+}
 
-/* End of content */
+.main-news-w-50:last-of-type{
+    margin-right: 0;
+}
+
+/* End of main*/
+
+
+/* ------ Aside Start ------ */
+
+/* End of Aside*/
+
+/* End of container */
