@@ -443,8 +443,31 @@ a:hover > b{
 /* End of main*/
 
 
-/* ------ Aside Start ------ */
+/* ------ Sidebar Start ------ */
+.sidebar{
+    float: right;
+    width: calc(calc(100% / 3) - 25px) ;
+    margin-left: 25px;
+}
 
-/* End of Aside*/
+/* sidebar-item */
+.sidebar-item{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.sidebar-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-list>li{
+    padding: 15px 0;
+    background-color: #F9B500 !important;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+
+/* End of Sidebar*/
 
 /* End of container */
