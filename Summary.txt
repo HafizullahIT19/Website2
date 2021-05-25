@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333333;
+}
+
+---------------------------------------
+
+.clear-fix{
+    clear: both;
+}
+
+/* Video 53 float */
+/* .clearFix::after,
+.clearFix::before{
+    content: " ";
+    display: table;
+} */
+
+
+---------------------------------------
+class title
+
+.title{
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #cccccc;
+}
+
+.title:before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 80px;
+    height: 5px;
+    background-color: #f9b500;
+    z-index: 1;
+}
+
+---------------------------------------
+@media   video 18
+
+/* width: 1200px */
+.app{
+    width: 1200px;
+    background-color: aqua;
+}
+
+/* width: 992px */
+@media (max-width:1199.98px) {
+    .app{
+        width: 992px;
+    }
+}
+
+
+/* width: 768px */
+@media (max-width:991.98px) {
+    .app{
+        width: 768px;
+    }
+}
+
+/* width: 576px */
+@media (max-width:767.98px) {
+    .app{
+        width: 576px;
+    }
+}
+
+
+
+/* Width less than: 576px */
+@media (max-width:575.98px) {
+    .app{
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+}
